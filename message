@@ -1,0 +1,9 @@
+Welcome to the Installer Environment!
+
+
+To start the installation enter 'install' and press <return>.
+
+
+Available boot options:
+  harddisk - Boot from Hard Disk (this is default)
+  install  - Installation

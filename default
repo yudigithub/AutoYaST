@@ -1,0 +1,15 @@
+default install
+
+# hard disk
+label harddisk
+  localboot -2
+
+# install
+label install
+  kernel linux
+  append initrd=initrd autoyast=nfs://200.200.100.70:/srv/install/x86/sles12/sp0/autoinst.xml install=nfs://200.200.100.70:/srv/install/x86/sles12/sp0/cd1/
+
+display message
+implicit 0
+prompt 1
+timeout 5
